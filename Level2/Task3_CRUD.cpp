@@ -18,7 +18,7 @@ void addTask(vector<Task>& tasks){
     cout << "Enter Task Title: ";
     cin >> t.title;
     
-    t.status = "Pending";  // naya task default Pending hoga
+    t.status = "Pending";  
     
     tasks.push_back(t);
     cout << "Task Added!\n";
